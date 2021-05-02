@@ -1,0 +1,250 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LIONMALL</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="lionmall" />
+        <link rel="canonical" href="#" />
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script async="" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+        <script defer src="https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.4.0/dist/lazyload.min.js"></script>
+        <script src="script-landing.js"></script>
+        <link rel="stylesheet" type="text/css" href="style-landing.css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700|Roboto+Condensed:300,400,500,600|Barlow:300,400,500,600,700|Barlow+Condensed:300,400,500,600,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/lionmall_logo_64x64.png" sizes="32x32" />
+    </head>
+    <body>
+        <div id="main" class="container-fluid">
+            <div id="img-popup" class="media-popup-wrp">
+                <div class="pop-img-wrp"><img src="" /></div>
+            </div>
+            <div id="video-popup" class="media-popup-wrp">
+                <div class="pop-vid-wrp">
+                    <iframe src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div id="intro-section" class="container-fluid">
+                <div class="container">
+                    <div class="row top-bar-wrp">
+                        <div class="col-md-3">
+                            <div class="logo-wrp">
+                                <img src="img/logo-top.png" />
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <nav class="top-nav">
+                                <ul>
+                                    <li><a href="#intro-section">Intro</a></li>
+                                    <li><a href="#products-section">Products</a></li>
+                                    <li><a href="#reviews-section">Reviews</a></li>
+                                    <li><a href="#footer">Support</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="row intro-content">
+                        <div class="col-md-6">
+                            <div class="intro-content-inner">
+                                <h1 style="font-family: 'Do Hyeon', sans-serif;"><span class="text-red">라이언몰.COM</span></h1>
+                                <p class="content-text">
+                                    안녕하세요. 저희 라이언몰을 찾아주셔서 감사합니다 !</br>
+                                    저희 라이언몰은 오버워치, 배틀그라운드, 리그오브레전드 등의</br>
+                                    게임 계정을 판매 중인 < 정식사업자등록업체 > 입니다.</br>
+                                    저희는 국가에 납세의무를 지키고 있는 정식 사업체로,</br>
+                                    구매자분들이 믿고 구매 할 수 있는 업체입니다!</br>
+                                    항상 신뢰할 수 있고 편히 이용할 수 있는 라이언몰이 되겠습니다.
+                                </p>
+                                <a href="https://discord.gg/ZUpsUrveSn" class="flex-btn">
+                                    <span class="btn-icon"><i class="fa fa-heart"></i></span>
+                                    <span class="btn-sign">Join the server</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/TWx_hzFG9lc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="products-section" class="container-fluid">
+                <h3>판매 목록</h3>
+                <div class="container">
+                    <div class="col-md-4 col-sm-6">
+                        <a href="#" class="product-link-tab">
+                            <div class="product-wrp" style="background-image: url('img/ow-tab-bg.png');">
+                                <img src="img/overwatch-logo.png" />
+                                <div class="product-tab-text">
+                                    <p class="tab-num">01</p>
+                                    <span>Overwatch</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <a href="#" class="product-link-tab">
+                            <div class="product-wrp" style="background-image: url('img/pubg-tab-bg.png');">
+                                <img src="img/pubg-logo.png" />
+                                <div class="product-tab-text">
+                                    <p class="tab-num">02</p>
+                                    <span>PUBG</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <a href="#" class="product-link-tab">
+                                <div class="product-wrp" style="background-image: url('img/lol-tab-bg.png');">
+                                    <img src="img/lol-logo.png" />
+                                    <div class="product-tab-text">
+                                        <p class="tab-num">03</p>
+                                        <span>LOL</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="features-section-2" class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="section-content">
+                                <h2>24/7 ONLINE</h2>
+                                <p class="content-text">
+                                    구매자분들에게는 빠른 구매가 중요하기 때문에</br>
+                                    저희 구매사이트는 "자동 충전" 을 지원하고 있습니다.</br>
+                                    계좌 / 문화상품권 자동 충전 + 24시 상담 가능</br>
+                                    다른 건의 사항이 있으시면 저희에게 알려주세요!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 content-img-wrp">
+                            <img data-src="img/feature-img_2.png" class="content-img lazy-img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="reviews-section" class="container-fluid">
+                <h3>고객님들의 후기</h3>
+                <p class="subline">Here is what our clients say about us</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="review-wrp">
+                                <div class="review-author">
+                                    <div class="author-icon"></div>
+                                    <span class="author-name"></span>
+                                </div>
+                                <div class="review-text">
+                                    <span class="rev-text"></span>
+                                    <div class="review-stars">
+                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-wrp">
+                                <div class="review-author">
+                                    <div class="author-icon"></div>
+                                    <span class="author-name"></span>
+                                </div>
+                                <div class="review-text">
+                                    <span class="rev-text"></span>
+                                    <div class="review-stars">
+                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="review-wrp">
+                                <div class="review-author">
+                                    <div class="author-icon"></div>
+                                    <span class="author-name"></span>
+                                </div>
+                                <div class="review-text">
+                                    <span class="rev-text"></span>
+                                    <div class="review-stars">
+                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-wrp">
+                                <div class="review-author">
+                                    <div class="author-icon"></div>
+                                    <span class="author-name"></span>
+                                </div>
+                                <div class="review-text">
+                                    <span class="rev-text"></span>
+                                    <div class="review-stars">
+                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="inline-center" style="margin-top:30px;"></p>
+                </div>
+            </div>
+
+            <div id="media-section" class="container-fluid">
+                <div class="container outro-feature">
+                    <div class="row" style="margin-top:100px;">
+                        <div class="col-md-6 content-img-wrp">
+                            <img data-src="img/feature-img_3.png" class="content-img lazy-img" />
+                        </div>
+                        <div class="col-md-6">
+                            <h2>더 질문이 있으신가요?</h2>
+                            <p class="content-text">
+                                라이언몰에서는 24시간 구매가 가능합니다.</br>
+                                구매 과정이나 상품에 문제가 있을 경우</br>
+                                상담사분에게 연락을 하실 수 있습니다.</br>
+                                고객분들이 만족하실 때까지 저희는 최선을 다하겠습니다.</br>
+                                </br>
+                                아직 구매가 망설여지신다면 상담 한번 받아보세요!
+                            </p>
+                            <a href="https://discord.gg/ZUpsUrveSn" class="flex-btn" style="min-width:160px;">
+                                <span class="btn-icon"><i class="fa fa-heart"></i></span>
+                                <span class="btn-sign">Discord</span>
+                            </a>
+                            <a href="http://t.me/lionmall1234" class="flex-btn" style="min-width:180px;">
+                                <span class="btn-icon"><i class="fa fa-comment"></i></span>
+                                <span class="btn-sign">Telegram</span>
+                            </a>
+                            <a href="http://xn--oi2bu4dbvnzvb.com/" class="flex-btn" style="min-width:140px;">
+                                <span class="btn-icon"><i class="fa fa-shopping-cart"></i></span>
+                                <span class="btn-sign">Shop</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer" class="container-fluid">
+                <nav class="nav-bottom">
+                    <ul>
+                        <li class="no-right-border"><a href="https://discord.gg/ZUpsUrveSn">Discord</a></li>
+                        <li class="logo-bot-wrp no-right-border"><img src="img/logo-bottom.png" /></li>
+                        <li><a href="http://xn--oi2bu4dbvnzvb.com/">Shop</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </body>
+</html>
